@@ -1,0 +1,12 @@
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/bin/Debug/netcoreapp3.1/Q3.deps.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/bin/Debug/netcoreapp3.1/Q3.runtimeconfig.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/bin/Debug/netcoreapp3.1/Q3.runtimeconfig.dev.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/bin/Debug/netcoreapp3.1/Q3.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/bin/Debug/netcoreapp3.1/Q3.pdb
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.csprojAssemblyReference.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.csproj.CoreCompileInputs.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.AssemblyInfoInputs.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.AssemblyInfo.cs
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.pdb
+/Users/keith/Documents/Courses/sdp-sp3/2020/mock-test-two/Q3/obj/Debug/netcoreapp3.1/Q3.genruntimeconfig.cache
