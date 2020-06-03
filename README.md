@@ -187,8 +187,13 @@
 	You are required to design an application for an advertisement company, which produces different types of publications; for example, books, articles, leaflets. 
 	The company publishes their products in many media formats such as printed material, CD, DVD, online websites, etc. 
 	How would you model the company products hierarchy (Publications, Media)?
-	
 	Provide an appropriate explanation to support your answer.
+
+	I would use the abstract factory pattern in which the publications resemble the products , each concrete one implementing its abstract product interface and the media resembling the factories, each of them
+	implementing the abstract factory interface. Eg. An Online websites factory has the methods, CreateBook(), CreateArticle(), CreateLeaflet() and so does the DVD factory has.
+	Similarly, the interface Product can be implemented by various types of products, eg a book or an article, and because of the different factories, also of different variants (i.e. media).
+	
+	
 
 5. **[8 marks]**  
 	Which design pattern is implemented by the code within the `Example.cs` file?
