@@ -20,8 +20,8 @@
 
 1. **[6 marks]**  
 	Describe the difference between composition and inheritance, and provide appropriate examples of each.
-	Composition is when a class holds a reference to another class as a field. Inheritance is when one class sub-classes another class to inherite all its attirbutes and behaviours 
-	as well as allowing for adding additional ones. 
+	Composition is when a class holds a reference to another class as a field. Inheritance is when one class is derived from another class to inherite all its instance variables 
+	and methods. It may also add new variables and methods as well as override original methods from its parent with, providing it its own implementation. 
 	
 	Inheritance:
 	public class A{}
@@ -39,7 +39,9 @@
 	Polymorphism is often said to be a key component of Object-Oriented Programming. 
 	Using examples from `C#` and `Java` illustrate how this concept is manifested.
 	
-	Answer: Polymorphism examples are either method overloading (static) and method overriding (dynamic).
+	Answer: Polymorphism is used to describe variables which may refer at run-time to objects of different classes.
+	
+	Polymorphism examples are either method overloading (static) and method overriding (dynamic).
 	
 	Eg of former in java: 
 	
