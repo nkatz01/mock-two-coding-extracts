@@ -237,7 +237,16 @@
 		}
 		```	
 	+ For this example, why is it preferable to throw an exception as against returning the value `-300` which the calling method could check?  
+	Because else, what's the purpose of this method, the caller could just call the Read() method directly? Therefore perhaps the that ReadTemperature() is used to check if the connection between Read and the physical
+	sensor is broken whilst in Read(), throwing an exception would mean that we don't always get back a number value and we want to keep the two concerns, reading input and checing its validity, separate.
+	
 	+ Why would it be preferable to return an `Option` rather than throwing an exception?
+	
+	 So that it always returns the same type of value regardless of whether the connection is out of order as the methods calling it
+	may not be aware of the possibility that it throws an exception. Also, this way we a method calling it need not necessarily be bothered with the meaning of the  values it returns so long as it returns the same type
+	every time it's called.
+
+	
 	+ Write a method `Monitor` which monitors the temperature. The method has two arguments, `low` and `high`.
 
 
