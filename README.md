@@ -244,7 +244,8 @@
 	
 	 So that it always returns the same type of value regardless of whether the connection is out of order as the methods calling it
 	may not be aware of the possibility that it throws an exception. Also, this way we a method calling it need not necessarily be bothered with the meaning of the  values it returns so long as it returns the same type
-	every time it's called.
+	every time it's called. 
+	Or to enable fluent expressions. (builder style)
 
 	
 	+ Write a method `Monitor` which monitors the temperature. The method has two arguments, `low` and `high`.
